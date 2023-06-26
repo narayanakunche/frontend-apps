@@ -1,0 +1,10 @@
+#backgroundimg{
+    background-image: url("../../images/p0.jpg");
+    background-repeat:no-repeat;
+    background-size: cover;
+    height:500px;
+    width:100%;
+}
+.line:hover{
+text-decoration: underline;
+}

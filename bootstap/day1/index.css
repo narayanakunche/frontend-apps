@@ -1,0 +1,9 @@
+.carousel-item{
+    height: 400px;
+    width: 1000px;
+}
+section{
+    display: flex;
+    margin-top:10px;
+    
+}

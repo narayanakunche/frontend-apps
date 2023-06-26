@@ -1,0 +1,45 @@
+p{
+    /* color: #f00080; */
+    /* color: rgb(254,100,255); */
+    /* color: rgba(100,100,100,0.7); */
+    /* color: hsl(120deg,90%,40%); */
+    color: hsla(160deg,40%, 30%,1);
+}
+#div1{
+    border: 2px solid ;
+    height:400px;
+    /* background-image: linear-gradient(black,grey,black); */
+    background-image: linear-gradient(to bottom,black,grey,red);
+}
+#div2{
+    border: 2px solid ;
+    height: 400px;
+    width:100%;
+    background-image: radial-gradient(circle,red,blue,yellow,grey);
+    /* background-image: radial-gradient(rgb(255, 115, 0),white,green); */
+}
+#div3{
+    height: 500px;
+    width:100%;
+    background-image: radial-gradient(circle farthest-corner at 60% 60%,red,green,yellow,grey);
+}
+#div4{
+    height: 500px;
+    width:100%;
+    background-image: radial-gradient(circle farthest-side at 60% 60%,red,green,yellow,grey);
+}
+#div5{
+    height: 500px;
+    width:100%;
+    background-image: radial-gradient(circle closest-corner at 60% 60%,red,green,yellow,grey);
+}
+#div6{
+    height: 500px;
+    width:100%;
+    background-image: radial-gradient(circle closest-side at 60% 60%,red,green,yellow,grey);
+}
+#div7{
+    height: 500px;
+    width:100%;
+    background-image: conic-gradient(circle closest-corner at 60% 60%,red,green,yellow,grey);
+}
